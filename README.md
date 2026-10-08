@@ -4,7 +4,7 @@ Aplikacja do monitorowania dostępności sensorów CGM Simplera Sync do pompy in
 
 ## ⏰ Automatyczne uruchamianie
 
-Skrypt jest skonfigurowany do automatycznego uruchamiania poprzez GitHub Actions co 15 minut między 7:00 a 22:00 UTC (czyli 9:00–00:00 czasu lokalnego w Polsce).
+Skrypt jest skonfigurowany do automatycznego uruchamiania poprzez GitHub Actions raz dziennie o 7:00 UTC (9:00 czasu lokalnego w Polsce). Można go też odpalić ręcznie z zakładki Actions.
 
 ## 🔒 Uwaga 
 
@@ -34,21 +34,14 @@ Jeśli chcesz tylko otrzymywać powiadomienia o dostępności sensora, wystarczy
 - Infusion.pl
 - Sosdiabetyka.pl
 
-## 📋 Do zrobienia
-
-   1. Dodanie prywatnego tokena do kanału ntfy
-   2. Optymalizacja częstotliwości sprawdzania sklepów
-   3. Implementacja systemu przewidywania dostaw
-
-
 ## 💻 Instalacja lokalna (opcjonalnie)
 
 Jeśli chcesz uruchomić skrypt lokalnie na swoim komputerze to:
 
 1. Sklonuj repozytorium:
 ```bash
-git clone https://github.com/twoje-repozytorium/MediWatch.git
-cd MediWatch
+git clone https://github.com/brodatech-lab/cgm-sensor-watchdog.git
+cd cgm-sensor-watchdog
 ```
 
 2. Zainstaluj wymagane biblioteki:

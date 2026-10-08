@@ -2,7 +2,7 @@ name: Sprawdzanie dostępności
 
 on:
   schedule:
-    - cron: "*/15 7-22 * * *"  # co 15 minut w godz. 7:00–22:45 UTC
+    - cron: "0 7 * * *"  # raz dziennie o 7:00 UTC (9:00 w Polsce)
   workflow_dispatch:
 
 jobs:
